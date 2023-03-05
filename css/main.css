@@ -1,0 +1,63 @@
+.title_1 {
+    background: #292929;
+    margin: auto;
+    color: #ffffff;
+    height: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.main-container {
+    margin-top: 5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+body {
+    background: -webkit-gradient(linear,left bottom,right top,from(#08aeea),to(#b721ff));
+    background: -webkit-linear-gradient(bottom left,#ffffff 0%,#bbbbbb 100%);
+    background: -moz-linear-gradient(bottom left,#ffffff 0%,#bbbbbb 100%);
+    background: -o-linear-gradient(bottom left,#ffffff 0%,#bbbbbb 100%);
+    background: linear-gradient(to top right,#ffffff 0%,#bbbbbb 100%);
+}
+.form-group > input {
+    width: 50%;
+    background: #e5e5e5;
+    margin: auto;
+}
+.form-group > select {
+    background: #e5e5e5;
+}
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #0a0a0a!important;
+    background-color: #484848!important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .title_1, .main-container, table, h3 {
+        font-size: 6px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+    .title_1, .main-container, table, h3 {
+        font-size: 9px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .title_1, .main-container, table, h3 {
+        font-size: 15px;
+    }
+}
